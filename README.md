@@ -41,6 +41,10 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 
 ## 🧠 Como cada dia é estruturado
 
+> **Nota:** a partir do dia 02, cada pasta segue a estrutura completa
+> (`exercicio.sql` + `problema.md` + `aprendizado.md`). O dia 01 documenta
+> apenas a query resolvida, antes de eu formalizar este padrão.
+
 ```
 dia-XX/
   ├── exercicio.sql       → query resolvida
