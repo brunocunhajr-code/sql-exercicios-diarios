@@ -20,13 +20,18 @@ Prática diária de SQL como parte de um plano estruturado de 60 dias, dividido 
 Tabela de prática principal: `vendas` (PostgreSQL).
 
 ## Estrutura do repo
-- Cada exercício do dia vai em um arquivo `solucao.sql` dentro da pasta do dia
-  (ex: `dia-15/solucao.sql`)
+- A partir do dia-02, cada pasta `dia-XX/` tem um único `notas.md` com 3 seções:
+  `## Problema` (enunciado), `## Abordagem` (query resolvida) e
+  `## Aprendizado` (2-3 linhas: o que travou, o que entendi)
+- O dia-01 é exceção histórica: só tem `solucao.sql`, antes de eu formalizar
+  esse padrão — não retroaja a estrutura nele sem eu pedir
 - Não há build, lint ou suite de testes — são scripts SQL isolados, escritos e
   validados manualmente no DBeaver contra um Postgres local com a tabela `vendas`
-- Uso o script `salvar.sh` para automatizar add/commit/push com timestamp (ainda
-  não versionado neste repo)
-- README principal tem framing narrativo da minha transição de carreira
+- `./salvar.sh "mensagem opcional"` automatiza `git add -A`, commit com
+  timestamp e `git push`
+- README principal tem framing narrativo da minha transição de carreira e a
+  tabela de progresso por fase/dia — mantenha os dois arquivos consistentes
+  ao editar plano ou fases
 
 ## Como me ajudar aqui
 - Revisar meu SQL: apontar erros, sugerir versões mais idiomáticas/performáticas,
