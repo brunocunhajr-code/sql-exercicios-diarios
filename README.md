@@ -34,7 +34,7 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 |---|---|---|---|
 | 01 | Setup + SELECT básico | Filtragem simples com WHERE | [dia-01](./dia-01) |
 | 02 | — | — | — |
-
+| 03   | HAVING + ORDER BY               | Total por vendedor acima de 500   | [dia-03](dia-03) |
 > Atualizado diariamente. Cada pasta `dia-XX` contém o script `.sql`, o problema resolvido e uma anotação curta do que aprendi.
 
 ---
