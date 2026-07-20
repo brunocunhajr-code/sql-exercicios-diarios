@@ -36,7 +36,7 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | 02 | — | — | — |
 | 03   | HAVING + ORDER BY               | Total por vendedor acima de 500   | [dia-03](dia-03) |
 | 04 | Tratamento de NULL (IS NULL)      | Vendas sem status registrado      | [dia-04](dia-04) |> Atualizado diariamente. Cada pasta `dia-XX` contém o script `.sql`, o problema resolvido e uma anotação curta do que aprendi.
-
+| 05 | Subquery no HAVING 		 | produtos com vendas acima da média|
 ---
 
 ## 🧠 Como cada dia é estruturado
