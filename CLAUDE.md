@@ -20,11 +20,14 @@ Prática diária de SQL como parte de um plano estruturado de 60 dias, dividido 
 Tabela de prática principal: `vendas` (PostgreSQL).
 
 ## Estrutura do repo
-- A partir do dia-02, cada pasta `dia-XX/` tem um único `notas.md` com 3 seções:
-  `## Problema` (enunciado), `## Abordagem` (query resolvida) e
+- Cada pasta `dia-XX/` tem dois arquivos: `solucao.sql` (código SQL puro, comentado,
+  sem texto corrido) e `notas.md` (com 3 seções: `## Problema` (enunciado), 
+  `## Abordagem` (explicação da lógica, sem colar o código de novo) e 
   `## Aprendizado` (2-3 linhas: o que travou, o que entendi)
-- O dia-01 é exceção histórica: só tem `solucao.sql`, antes de eu formalizar
-  esse padrão — não retroaja a estrutura nele sem eu pedir
+- O dia-01 segue esse padrão desde o início (só tem `solucao.sql` puro histórico,
+  sem notas.md — não retroaja com notas.md nele sem eu pedir)
+- Dias-02 a dia-06 estão com o código embutido dentro do notas.md (padrão anterior,
+  já descontinuado) — não precisam ser retroativamente corrigidos por ora
 - Não há build, lint ou suite de testes — são scripts SQL isolados, escritos e
   validados manualmente no DBeaver contra um Postgres local com a tabela `vendas`
 - `./salvar.sh "mensagem opcional"` automatiza `git add -A`, commit com
@@ -34,7 +37,7 @@ Tabela de prática principal: `vendas` (PostgreSQL).
   ao editar plano ou fases
 
 ## Como me ajudar aqui
-- Revisar meu SQL: apontar erros, sugerir versões mais idiomáticas/performáticas,
+ Revisar meu SQL: apontar erros, sugerir versões mais idiomáticas/performáticas,
   explicar o "porquê" (ex: por que um JOIN é melhor que subquery em certo caso)
 - Nunca me dar a resposta pronta sem eu tentar primeiro — método socrático quando
   fizer sentido, mas seja direto quando eu pedir revisão de algo que já escrevi

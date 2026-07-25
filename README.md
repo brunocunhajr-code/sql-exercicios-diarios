@@ -15,7 +15,6 @@ Depois de 20+ anos analisando risco, retorno e probabilidade em ambientes incert
 Este repositório não é sobre dominar SQL rápido. É sobre **provar consistência** — a métrica mais valiosa para quem está em transição de carreira e não tem ainda experiência formal na área.
 
 ---
-
 ## 🗺️ Plano de 60 dias
 
 | Fase | Foco | Dias | Status |
@@ -24,9 +23,7 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | 2 | Agregação (GROUP BY, HAVING, funções agregadas) | 13–24 | ⏳ |
 | 3 | Joins (INNER, LEFT, RIGHT, FULL, self-join) | 25–36 | ⏳ |
 | 4 | SQL avançado (subqueries, window functions, CTEs) | 37–48 | ⏳ |
-| 5 | Projeto de portfólio (dataset real, análise completa) | 49–60 | ⏳ |
-
----
+| 5 | Projeto de portfólio (dataset real, análise completa | 49–60 | ⏳ |
 
 ## 📅 Progresso diário
 
@@ -37,8 +34,10 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | 03   | HAVING + ORDER BY               | Total por vendedor acima de 500   | [dia-03](dia-03) |
 | 04 | Tratamento de NULL (IS NULL)      | Vendas sem status registrado      | [dia-04](dia-04) |> Atualizado diariamente. Cada pasta `dia-XX` contém o script `.sql`, o problema resolvido e uma anotação curta do que aprendi.
 | 05 | Subquery no HAVING 		 | produtos com vendas acima da média|
-| 06 | Normalização: criação de tabela vendedores | extração de vendedores como tabela separada (FK em vendas) |
+| 06 | Normalização: criação de tabela vendedores | Extração de vendedores como tabela separada, ligada por FK | [dia-06](./dia-06) |
+| 07 | WHERE, GROUP BY + HAVING, subquery no WHERE | Vendas acima da média geral da tabela | [dia-07](./dia-07) |
 ---
+
 
 ## 🧠 Como cada dia é estruturado
 
