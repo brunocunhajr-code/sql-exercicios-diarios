@@ -36,6 +36,7 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | 05 | Subquery no HAVING 		 | produtos com vendas acima da média|
 | 06 | Normalização: criação de tabela vendedores | Extração de vendedores como tabela separada, ligada por FK | [dia-06](./dia-06) |
 | 07 | WHERE, GROUP BY + HAVING, subquery no WHERE | Vendas acima da média geral da tabela | [dia-07](./dia-07) |
+| 08 | JOIN, apelidos de tabela (alias) | Nome do vendedor, produto, valor e status das vendas concluídas | 
 ---
 
 
