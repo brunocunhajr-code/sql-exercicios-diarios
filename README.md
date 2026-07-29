@@ -42,16 +42,17 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 
 ## 🧠 Como cada dia é estruturado
 
-> **Nota:** a partir do dia 02, cada pasta segue a estrutura completa
-> (`notas.md` com as 3 seções abaixo). O dia 01 documenta apenas a query
-> resolvida, antes de eu formalizar este padrão.
+Nota: a estrutura abaixo é o padrão vigente a partir do dia-07. Os dias 02 a 06 documentam
+tudo dentro do notas.md (sem solucao.sql separado), e o dia-01 tem só solucao.sql, sem
+notas.md, registro do processo antes de eu fixar este formato.
 
 ```
-dia-XX/
+dia-XX/ (a partir do dia-07)
+  ├── solucao.sql    → código SQL comentado
   └── notas.md
-        ├── ## Problema      → enunciado do exercício
-        ├── ## Abordagem     → query resolvida
-        └── ## Aprendizado   → 2-3 linhas: o que travou, o que entendi
+      ├── ## Problema      → enunciado do exercício
+      ├── ## Abordagem     → raciocínio por trás da query
+      └── ## Aprendizado   → 2-3 linhas: o que travou, o que entendi
 ```
 
 Isso não é burocracia — é o que transforma prática solta em portfólio legível por qualquer pessoa que abra o repositório, mesmo sem contexto prévio.
