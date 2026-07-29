@@ -1,6 +1,6 @@
 # 📊 SQL Exercícios Diários
 
-Prática diária de SQL (PostgreSQL) durante minha transição de carreira para Dados — de analista de investimentos autônomo (poker, trading, imóveis) para Analytics.
+Prática diária de SQL (PostgreSQL), aplicando 20+ anos de rigor analítico em risco e decisão (poker, trading, imóveis) na minha transição para Analytics.
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
@@ -68,6 +68,6 @@ Isso não é burocracia — é o que transforma prática solta em portfólio leg
 
 ## 📌 Sobre mim
 
-Em transição de carreira para Dados após 20+ anos como analista autônomo em investimentos, poker e consultoria financeira. Aplico o mesmo rigor analítico de tomada de decisão sob incerteza agora ao aprendizado técnico.
+20+ anos tomando decisões sob risco e incerteza como analista autônomo, poker e consultoria financeira. Agora aplico esse mesmo rigor analítico à transição para Dados.
 
 [LinkedIn](https://www.linkedin.com/in/brunocunhajr) · Decision Lab (em construção)
