@@ -30,13 +30,13 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | Dia | Tema | Query em destaque | Link |
 |---|---|---|---|
 | 01 | Setup + SELECT básico | Filtragem simples com WHERE | [dia-01](./dia-01) |
-| 02 | — | — | — |
+| 02 | | 02 | WHERE + HAVING (agregação por produto) | Produtos com venda total acima de 1000 num período específico | [dia-02](./dia-02) |
 | 03   | HAVING + ORDER BY               | Total por vendedor acima de 500   | [dia-03](dia-03) |
 | 04 | Tratamento de NULL (IS NULL)      | Vendas sem status registrado      | [dia-04](dia-04) |> Atualizado diariamente. Cada pasta `dia-XX` contém o script `.sql`, o problema resolvido e uma anotação curta do que aprendi.
-| 05 | Subquery no HAVING 		 | produtos com vendas acima da média|
+| 05 | Subquery no HAVING 		 | produtos com vendas acima da média| [dia-05](./dia-05) |
 | 06 | Normalização: criação de tabela vendedores | Extração de vendedores como tabela separada, ligada por FK | [dia-06](./dia-06) |
 | 07 | WHERE, GROUP BY + HAVING, subquery no WHERE | Vendas acima da média geral da tabela | [dia-07](./dia-07) |
-| 08 | JOIN, apelidos de tabela (alias) | Nome do vendedor, produto, valor e status das vendas concluídas | 
+| 08 | JOIN, apelidos de tabela (alias) | Nome do vendedor, produto, valor e status das vendas concluídas | [dia-08](./dia-08) |
 ---
 
 
