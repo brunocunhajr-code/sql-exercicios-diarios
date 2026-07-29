@@ -4,7 +4,7 @@ Prática diária de SQL (PostgreSQL), aplicando 20+ anos de rigor analítico em 
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
-![Consistência](https://img.shields.io/badge/dias%20consecutivos-2-brightgreen)
+![Consistência](https://img.shields.io/badge/exercícios%20concluídos-8-brightgreen)
 
 ---
 
