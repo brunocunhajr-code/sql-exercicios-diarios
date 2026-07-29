@@ -70,4 +70,4 @@ Isso não é burocracia — é o que transforma prática solta em portfólio leg
 
 Em transição de carreira para Dados após 20+ anos como analista autônomo em investimentos, poker e consultoria financeira. Aplico o mesmo rigor analítico de tomada de decisão sob incerteza agora ao aprendizado técnico.
 
-[LinkedIn](#) · [Decision Lab](https://github.com/brunocunhajr-code/decision-lab)
+[LinkedIn](https://www.linkedin.com/in/brunocunhajr) · Decision Lab (em construção)
