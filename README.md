@@ -1,10 +1,10 @@
 # 📊 SQL Exercícios Diários
 
-Prática diária de SQL (PostgreSQL) durante minha transição de carreira para Dados — de analista de investimentos autônomo (poker, trading, imóveis) para Analytics.
+Prática diária de SQL (PostgreSQL), aplicando 20+ anos de rigor analítico em risco e decisão (poker, trading, imóveis) na minha transição para Analytics.
 
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
-![Consistência](https://img.shields.io/badge/dias%20consecutivos-2-brightgreen)
+![Consistência](https://img.shields.io/badge/exercícios%20concluídos-8-brightgreen)
 
 ---
 
@@ -30,9 +30,9 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 | Dia | Tema | Query em destaque | Link |
 |---|---|---|---|
 | 01 | Setup + SELECT básico | Filtragem simples com WHERE | [dia-01](./dia-01) |
-| 02 | — | — | — |
+| 02 | WHERE + HAVING (agregação por produto) | Produtos com venda total acima de 1000 num período específico | [dia-02](./dia-02) |
 | 03   | HAVING + ORDER BY               | Total por vendedor acima de 500   | [dia-03](dia-03) |
-| 04 | Tratamento de NULL (IS NULL)      | Vendas sem status registrado      | [dia-04](dia-04) |> Atualizado diariamente. Cada pasta `dia-XX` contém o script `.sql`, o problema resolvido e uma anotação curta do que aprendi.
+| 04 | Tratamento de NULL (IS NULL)      | Vendas sem status registrado      | [dia-04](dia-04) |
 | 05 | Subquery no HAVING 		 | produtos com vendas acima da média| [dia-05](dia-05) |
 | 06 | Normalização: criação de tabela vendedores | Extração de vendedores como tabela separada, ligada por FK | [dia-06](./dia-06) |
 | 07 | WHERE, GROUP BY + HAVING, subquery no WHERE | Vendas acima da média geral da tabela | [dia-07](./dia-07) |
@@ -43,16 +43,17 @@ Este repositório não é sobre dominar SQL rápido. É sobre **provar consistê
 
 ## 🧠 Como cada dia é estruturado
 
-> **Nota:** a partir do dia 02, cada pasta segue a estrutura completa
-> (`notas.md` com as 3 seções abaixo). O dia 01 documenta apenas a query
-> resolvida, antes de eu formalizar este padrão.
+Nota: a estrutura abaixo é o padrão vigente a partir do dia-07. Os dias 02 a 06 documentam
+tudo dentro do notas.md (sem solucao.sql separado), e o dia-01 tem só solucao.sql, sem
+notas.md, registro do processo antes de eu fixar este formato.
 
 ```
-dia-XX/
+dia-XX/ (a partir do dia-07)
+  ├── solucao.sql    → código SQL comentado
   └── notas.md
-        ├── ## Problema      → enunciado do exercício
-        ├── ## Abordagem     → query resolvida
-        └── ## Aprendizado   → 2-3 linhas: o que travou, o que entendi
+      ├── ## Problema      → enunciado do exercício
+      ├── ## Abordagem     → raciocínio por trás da query
+      └── ## Aprendizado   → 2-3 linhas: o que travou, o que entendi
 ```
 
 Isso não é burocracia — é o que transforma prática solta em portfólio legível por qualquer pessoa que abra o repositório, mesmo sem contexto prévio.
@@ -69,6 +70,6 @@ Isso não é burocracia — é o que transforma prática solta em portfólio leg
 
 ## 📌 Sobre mim
 
-Em transição de carreira para Dados após 20+ anos como analista autônomo em investimentos, poker e consultoria financeira. Aplico o mesmo rigor analítico de tomada de decisão sob incerteza agora ao aprendizado técnico.
+20+ anos tomando decisões sob risco e incerteza como analista autônomo, poker e consultoria financeira. Agora aplico esse mesmo rigor analítico à transição para Dados.
 
-[LinkedIn](#) · [Decision Lab](https://github.com/brunocunhajr-code/decision-lab)
+[LinkedIn](https://www.linkedin.com/in/brunocunhajr) · Decision Lab (em construção)
